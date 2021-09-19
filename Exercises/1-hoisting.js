@@ -2,7 +2,7 @@
 
 const fn = () => {
   console.log(a);
-  let a = 5;
+  var a = 5;
 };
 
 module.exports = { fn };
